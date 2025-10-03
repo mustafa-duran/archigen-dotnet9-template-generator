@@ -1,0 +1,25 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "Build Archigen.sln to validate new CLI feature",
+			"type": "shell",
+			"command": "dotnet build Archigen.sln -c Release",
+			"isBackground": false,
+			"problemMatcher": [
+				"$msCompile"
+			],
+			"group": "build"
+		},
+		{
+			"label": "archigen: build solution",
+			"type": "shell",
+			"command": "dotnet build Archigen.sln -c Release --nologo",
+			"isBackground": false,
+			"problemMatcher": [
+				"$msCompile"
+			],
+			"group": "build"
+		}
+	]
+}

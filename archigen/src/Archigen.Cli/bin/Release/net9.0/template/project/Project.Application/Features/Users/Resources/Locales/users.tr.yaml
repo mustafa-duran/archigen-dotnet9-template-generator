@@ -1,0 +1,3 @@
+﻿﻿UserDontExists: "Kullanıcı bulunamadı."
+UserMailAlreadyExists: "Bu e-posta adresi zaten kayıtlı."
+PasswordDontMatch: "Parolalar eşleşmiyor."

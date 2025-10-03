@@ -1,0 +1,199 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/mustafa/Desktop/archigen-dotnet9/archigen/src/Archigen.Cli/Archigen.Cli.csproj": {}
+  },
+  "projects": {
+    "/Users/mustafa/Desktop/archigen-dotnet9/archigen/src/Archigen.Cli/Archigen.Cli.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/mustafa/Desktop/archigen-dotnet9/archigen/src/Archigen.Cli/Archigen.Cli.csproj",
+        "projectName": "Archigen.Cli",
+        "projectPath": "/Users/mustafa/Desktop/archigen-dotnet9/archigen/src/Archigen.Cli/Archigen.Cli.csproj",
+        "packagesPath": "/Users/mustafa/.nuget/packages/",
+        "outputPath": "/Users/mustafa/Desktop/archigen-dotnet9/archigen/src/Archigen.Cli/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/mustafa/Desktop/archigen-dotnet9/archigen/NuGet.Config",
+          "/Users/mustafa/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "/Users/mustafa/Desktop/archigen-dotnet9/archigen/$(MSBuildThisFileDirectory)packages": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {
+              "/Users/mustafa/Desktop/archigen-dotnet9/archigen/src/Archigen.Core/Archigen.Core.csproj": {
+                "projectPath": "/Users/mustafa/Desktop/archigen-dotnet9/archigen/src/Archigen.Core/Archigen.Core.csproj"
+              },
+              "/Users/mustafa/Desktop/archigen-dotnet9/archigen/src/Archigen.Generator/Archigen.Generator.csproj": {
+                "projectPath": "/Users/mustafa/Desktop/archigen-dotnet9/archigen/src/Archigen.Generator/Archigen.Generator.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.303/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/mustafa/Desktop/archigen-dotnet9/archigen/src/Archigen.Core/Archigen.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/mustafa/Desktop/archigen-dotnet9/archigen/src/Archigen.Core/Archigen.Core.csproj",
+        "projectName": "Archigen.Core",
+        "projectPath": "/Users/mustafa/Desktop/archigen-dotnet9/archigen/src/Archigen.Core/Archigen.Core.csproj",
+        "packagesPath": "/Users/mustafa/.nuget/packages/",
+        "outputPath": "/Users/mustafa/Desktop/archigen-dotnet9/archigen/src/Archigen.Core/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/mustafa/Desktop/archigen-dotnet9/archigen/NuGet.Config",
+          "/Users/mustafa/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "/Users/mustafa/Desktop/archigen-dotnet9/archigen/$(MSBuildThisFileDirectory)packages": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.303/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/mustafa/Desktop/archigen-dotnet9/archigen/src/Archigen.Generator/Archigen.Generator.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/mustafa/Desktop/archigen-dotnet9/archigen/src/Archigen.Generator/Archigen.Generator.csproj",
+        "projectName": "Archigen.Generator",
+        "projectPath": "/Users/mustafa/Desktop/archigen-dotnet9/archigen/src/Archigen.Generator/Archigen.Generator.csproj",
+        "packagesPath": "/Users/mustafa/.nuget/packages/",
+        "outputPath": "/Users/mustafa/Desktop/archigen-dotnet9/archigen/src/Archigen.Generator/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/mustafa/Desktop/archigen-dotnet9/archigen/NuGet.Config",
+          "/Users/mustafa/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "/Users/mustafa/Desktop/archigen-dotnet9/archigen/$(MSBuildThisFileDirectory)packages": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {
+              "/Users/mustafa/Desktop/archigen-dotnet9/archigen/src/Archigen.Core/Archigen.Core.csproj": {
+                "projectPath": "/Users/mustafa/Desktop/archigen-dotnet9/archigen/src/Archigen.Core/Archigen.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.303/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

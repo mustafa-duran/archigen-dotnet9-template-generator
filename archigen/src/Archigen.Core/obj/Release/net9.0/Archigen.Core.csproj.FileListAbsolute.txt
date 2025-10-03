@@ -1,0 +1,12 @@
+/Users/mustafa/Desktop/archigen-dotnet9/archigen/src/Archigen.Core/bin/Release/net9.0/Archigen.Core.deps.json
+/Users/mustafa/Desktop/archigen-dotnet9/archigen/src/Archigen.Core/bin/Release/net9.0/Archigen.Core.dll
+/Users/mustafa/Desktop/archigen-dotnet9/archigen/src/Archigen.Core/bin/Release/net9.0/Archigen.Core.pdb
+/Users/mustafa/Desktop/archigen-dotnet9/archigen/src/Archigen.Core/obj/Release/net9.0/Archigen.Core.GeneratedMSBuildEditorConfig.editorconfig
+/Users/mustafa/Desktop/archigen-dotnet9/archigen/src/Archigen.Core/obj/Release/net9.0/Archigen.Core.AssemblyInfoInputs.cache
+/Users/mustafa/Desktop/archigen-dotnet9/archigen/src/Archigen.Core/obj/Release/net9.0/Archigen.Core.AssemblyInfo.cs
+/Users/mustafa/Desktop/archigen-dotnet9/archigen/src/Archigen.Core/obj/Release/net9.0/Archigen.Core.csproj.CoreCompileInputs.cache
+/Users/mustafa/Desktop/archigen-dotnet9/archigen/src/Archigen.Core/obj/Release/net9.0/Archigen.Core.sourcelink.json
+/Users/mustafa/Desktop/archigen-dotnet9/archigen/src/Archigen.Core/obj/Release/net9.0/Archigen.Core.dll
+/Users/mustafa/Desktop/archigen-dotnet9/archigen/src/Archigen.Core/obj/Release/net9.0/refint/Archigen.Core.dll
+/Users/mustafa/Desktop/archigen-dotnet9/archigen/src/Archigen.Core/obj/Release/net9.0/Archigen.Core.pdb
+/Users/mustafa/Desktop/archigen-dotnet9/archigen/src/Archigen.Core/obj/Release/net9.0/ref/Archigen.Core.dll

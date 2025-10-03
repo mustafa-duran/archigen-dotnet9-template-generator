@@ -1,0 +1,37 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\core\src\Core.CrossCuttingConcerns.Exception.WebAPI\Core.CrossCuttingConcerns.Exception.WebAPI.csproj" />
+    <ProjectReference Include="..\..\core\src\Core.Localization.WebApi\Core.Localization.WebApi.csproj" />
+    <ProjectReference Include="..\..\core\src\Core.Persistence.WebApi\Core.Persistence.WebApi.csproj" />
+    <ProjectReference Include="..\..\core\src\Core.Security.WebApi.OpenApi\Core.Security.WebApi.OpenApi.csproj" />
+    <ProjectReference Include="..\Project.Application\Project.Application.csproj" />
+    <ProjectReference Include="..\Project.Infrastructure\Project.Infrastructure.csproj" />
+    <ProjectReference Include="..\Project.Persistence\Project.Persistence.csproj" />
+  </ItemGroup>
+
+	<ItemGroup>
+		<PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="9.0.7" />
+		<PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="9.0.7" />
+		<PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="9.0.7">
+			<PrivateAssets>all</PrivateAssets>
+			<IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+		</PackageReference>
+		<PackageReference Include="Microsoft.Extensions.Caching.StackExchangeRedis" Version="9.0.7" />
+		<PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="9.0.7" />
+		<PackageReference Include="Microsoft.Extensions.Logging" Version="9.0.7" />
+		<PackageReference Include="Scalar.AspNetCore" Version="2.6.1" />
+		<PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="8.12.1" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <Folder Include="logs\" />
+	</ItemGroup>
+
+</Project>

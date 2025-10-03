@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net9.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Archigen.Core\Archigen.Core.csproj" />
+    <ProjectReference Include="..\Archigen.Generator\Archigen.Generator.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <!-- Copy the repository-level 'template' folder into publish output -->
+    <Content Include="..\..\..\template\**\*" LinkBase="template">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <CopyToPublishDirectory>Always</CopyToPublishDirectory>
+    </Content>
+  </ItemGroup>
+</Project>

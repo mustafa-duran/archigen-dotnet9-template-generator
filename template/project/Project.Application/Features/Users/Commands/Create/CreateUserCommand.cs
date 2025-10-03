@@ -1,0 +1,67 @@
+using AutoMapper;
+
+using Core.Application.Pipelines.Authorization;
+using Core.Security.Hashing;
+
+using MediatR;
+
+using Project.Application.Features.Users.Constants;
+using Project.Application.Features.Users.Rules;
+using Project.Application.Services.Repositories;
+using Project.Domain.Entities;
+
+using static Project.Application.Features.Users.Constants.UsersOperationClaims;
+
+namespace Project.Application.Features.Users.Commands.Create;
+
+public class CreateUserCommand : IRequest<CreatedUserResponse>, ISecuredRequest
+{
+    public string Email { get; set; }
+    public string Password { get; set; }
+
+    public CreateUserCommand()
+    {
+        Email = string.Empty;
+        Password = string.Empty;
+    }
+
+    public CreateUserCommand(string email, string password)
+    {
+        Email = email;
+        Password = password;
+    }
+
+    public string[] Roles => new[] { Admin, Write, UsersOperationClaims.Create };
+
+    public class CreateUserCommandHandler : IRequestHandler<CreateUserCommand, CreatedUserResponse>
+    {
+        private readonly IUserRepository _userRepository;
+        private readonly IMapper _mapper;
+        private readonly UserBusinessRules _userBusinessRules;
+
+        public CreateUserCommandHandler(IUserRepository userRepository, IMapper mapper, UserBusinessRules userBusinessRules)
+        {
+            _userRepository = userRepository;
+            _mapper = mapper;
+            _userBusinessRules = userBusinessRules;
+        }
+
+        public async Task<CreatedUserResponse> Handle(CreateUserCommand request, CancellationToken cancellationToken)
+        {
+            await _userBusinessRules.UserEmailShouldNotExistsWhenInsert(request.Email);
+            User user = _mapper.Map<User>(request);
+
+            HashingHelper.CreatePasswordHash(
+                request.Password,
+                passwordHash: out byte[] passwordHash,
+                passwordSalt: out byte[] passwordSalt
+            );
+            user.PasswordHash = passwordHash;
+            user.PasswordSalt = passwordSalt;
+            User createdUser = await _userRepository.AddAsync(user);
+
+            CreatedUserResponse response = _mapper.Map<CreatedUserResponse>(createdUser);
+            return response;
+        }
+    }
+}

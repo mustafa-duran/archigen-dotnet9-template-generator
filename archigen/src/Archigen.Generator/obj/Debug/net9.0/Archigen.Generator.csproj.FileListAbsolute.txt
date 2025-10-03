@@ -1,0 +1,16 @@
+/Users/mustafa/Desktop/archigen-dotnet9/archigen/src/Archigen.Generator/bin/Debug/net9.0/Archigen.Generator.deps.json
+/Users/mustafa/Desktop/archigen-dotnet9/archigen/src/Archigen.Generator/bin/Debug/net9.0/Archigen.Generator.dll
+/Users/mustafa/Desktop/archigen-dotnet9/archigen/src/Archigen.Generator/bin/Debug/net9.0/Archigen.Generator.pdb
+/Users/mustafa/Desktop/archigen-dotnet9/archigen/src/Archigen.Generator/bin/Debug/net9.0/Archigen.Core.dll
+/Users/mustafa/Desktop/archigen-dotnet9/archigen/src/Archigen.Generator/bin/Debug/net9.0/Archigen.Core.pdb
+/Users/mustafa/Desktop/archigen-dotnet9/archigen/src/Archigen.Generator/obj/Debug/net9.0/Archigen.Generator.csproj.AssemblyReference.cache
+/Users/mustafa/Desktop/archigen-dotnet9/archigen/src/Archigen.Generator/obj/Debug/net9.0/Archigen.Generator.GeneratedMSBuildEditorConfig.editorconfig
+/Users/mustafa/Desktop/archigen-dotnet9/archigen/src/Archigen.Generator/obj/Debug/net9.0/Archigen.Generator.AssemblyInfoInputs.cache
+/Users/mustafa/Desktop/archigen-dotnet9/archigen/src/Archigen.Generator/obj/Debug/net9.0/Archigen.Generator.AssemblyInfo.cs
+/Users/mustafa/Desktop/archigen-dotnet9/archigen/src/Archigen.Generator/obj/Debug/net9.0/Archigen.Generator.csproj.CoreCompileInputs.cache
+/Users/mustafa/Desktop/archigen-dotnet9/archigen/src/Archigen.Generator/obj/Debug/net9.0/Archigen.Generator.sourcelink.json
+/Users/mustafa/Desktop/archigen-dotnet9/archigen/src/Archigen.Generator/obj/Debug/net9.0/Archigen.EEDED956.Up2Date
+/Users/mustafa/Desktop/archigen-dotnet9/archigen/src/Archigen.Generator/obj/Debug/net9.0/Archigen.Generator.dll
+/Users/mustafa/Desktop/archigen-dotnet9/archigen/src/Archigen.Generator/obj/Debug/net9.0/refint/Archigen.Generator.dll
+/Users/mustafa/Desktop/archigen-dotnet9/archigen/src/Archigen.Generator/obj/Debug/net9.0/Archigen.Generator.pdb
+/Users/mustafa/Desktop/archigen-dotnet9/archigen/src/Archigen.Generator/obj/Debug/net9.0/ref/Archigen.Generator.dll

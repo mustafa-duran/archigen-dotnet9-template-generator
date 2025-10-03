@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+	
+  <ItemGroup>
+    <ProjectReference Include="..\Core.CrossCuttingConcerns.Logging.SeriLog\Core.CrossCuttingConcerns.Logging.SeriLog.csproj" />
+    <ProjectReference Include="..\Core.CrossCuttingConcerns.Logging\Core.CrossCuttingConcerns.Logging.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Serilog.Sinks.File" Version="7.0.0" />
+  </ItemGroup>
+
+</Project>

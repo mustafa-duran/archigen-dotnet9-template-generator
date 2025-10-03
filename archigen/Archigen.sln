@@ -1,0 +1,30 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31912.275
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Archigen.Core", "src\Archigen.Core\Archigen.Core.csproj", "{7F7DADBD-8D2F-4A9B-A40D-37D8FB7F1BA9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Archigen.Generator", "src\Archigen.Generator\Archigen.Generator.csproj", "{D84EA1CE-67FD-4978-A5AF-CE0C1BDD0E5C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Archigen.Cli", "src\Archigen.Cli\Archigen.Cli.csproj", "{49C01F27-04C5-4518-8AE9-E192B07BB0A0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7F7DADBD-8D2F-4A9B-A40D-37D8FB7F1BA9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7F7DADBD-8D2F-4A9B-A40D-37D8FB7F1BA9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7F7DADBD-8D2F-4A9B-A40D-37D8FB7F1BA9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7F7DADBD-8D2F-4A9B-A40D-37D8FB7F1BA9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D84EA1CE-67FD-4978-A5AF-CE0C1BDD0E5C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D84EA1CE-67FD-4978-A5AF-CE0C1BDD0E5C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D84EA1CE-67FD-4978-A5AF-CE0C1BDD0E5C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D84EA1CE-67FD-4978-A5AF-CE0C1BDD0E5C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{49C01F27-04C5-4518-8AE9-E192B07BB0A0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{49C01F27-04C5-4518-8AE9-E192B07BB0A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{49C01F27-04C5-4518-8AE9-E192B07BB0A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{49C01F27-04C5-4518-8AE9-E192B07BB0A0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,3 @@
+﻿﻿UserDontExists: "User not found."
+UserMailAlreadyExists: "This email address is already registered."
+PasswordDontMatch: "Passwords do not match."
